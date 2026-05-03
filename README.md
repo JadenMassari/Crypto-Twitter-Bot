@@ -138,14 +138,6 @@ Frequently Asked Questions about the **Crypto Twitter Bot**.
 
 ---
 
-### **Still have questions?**
-
-- Open an [Issue](https://github.com/yourusername/cryptopulse-bot/issues)
-- Join our Telegram community (link coming soon)
-- Check the [Documentation](docs/)
-
----
-
 **Last updated:** May 2026  
 **Made with ❤️ for the Crypto Community**
 
