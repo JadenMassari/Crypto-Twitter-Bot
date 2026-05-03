@@ -138,9 +138,6 @@ Frequently Asked Questions about the **Crypto Twitter Bot**.
 
 ---
 
-**Last updated:** May 2026  
-**Made with ❤️ for the Crypto Community**
-
 ### Contributing
 
 Contributions are welcome! Please read CONTRIBUTING.md for details.Fork the project
@@ -153,15 +150,22 @@ Push to the branch (git push origin feature/amazing-feature)
 
 Open a Pull Request
 
+---
+
 ### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
 
 ### Disclaimer
 
 This bot is for educational and entertainment purposes. Crypto trading involves high risk. Always DYOR. The authors are not responsible for any financial losses.
 
+---
+
 Made with  for the Crypto Community
 
 Last updated: May 2026
 
+---
