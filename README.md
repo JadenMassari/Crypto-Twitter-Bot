@@ -149,7 +149,7 @@ Frequently Asked Questions about the **Crypto Twitter Bot**.
 **Last updated:** May 2026  
 **Made with ❤️ for the Crypto Community**
 
-### ⚡ Contributing
+### Contributing
 
 Contributions are welcome! Please read CONTRIBUTING.md for details.Fork the project
 
