@@ -37,17 +37,20 @@ Frequently Asked Questions about the **Crypto Twitter Bot**.
 
 ### **General Questions**
 
-**Q: What is CryptoPulse Bot?**  
+**Q: What is CryptoPulse Bot?**
+
 **A:** CryptoPulse Bot is an open-source automated Twitter/X bot designed for the cryptocurrency community. It tracks crypto prices in real-time, generates smart tweets using AI, posts market updates, and sends price alerts.
 
 ---
 
-**Q: Is this bot free?**  
+**Q: Is this bot free?**
+
 **A:** Yes, the bot is completely **free and open-source** (MIT License). You only pay for the APIs you use (Twitter API, OpenAI, etc.).
 
 ---
 
-**Q: Which platforms does it support?**  
+**Q: Which platforms does it support?**
+
 **A:** 
 - **X / Twitter** (full v2 API support)
 - CoinGecko (prices & market data)
@@ -58,10 +61,12 @@ Frequently Asked Questions about the **Crypto Twitter Bot**.
 
 ### **Setup & Installation**
 
-**Q: Do I need a Twitter Developer account?**  
+**Q: Do I need a Twitter Developer account?**
+
 **A:** Yes. You need **X Premium** or **Basic/ Pro API access** to post tweets. Free tier only allows reading.
 
-**Q: How do I get API keys?**  
+**Q: How do I get API keys?**
+
 **A:** 
 1. Go to [developer.x.com](https://developer.x.com)
 2. Create a new Project & App
@@ -70,7 +75,8 @@ Frequently Asked Questions about the **Crypto Twitter Bot**.
 
 ---
 
-**Q: Can I run the bot 24/7?**  
+**Q: Can I run the bot 24/7?**
+
 **A:** Yes. Recommended ways:
 - VPS (Hetzner, DigitalOcean, AWS)
 - Docker + Docker Compose
@@ -80,39 +86,46 @@ Frequently Asked Questions about the **Crypto Twitter Bot**.
 
 ### **Features & Usage**
 
-**Q: How does AI tweet generation work?**  
+**Q: How does AI tweet generation work?**
+
 **A:** The bot uses OpenAI (GPT-4o / GPT-4-turbo) or Grok to create engaging, natural-sounding tweets based on current market data, trends, and your style.
 
-**Q: Can I customize the posting style?**  
+**Q: Can I customize the posting style?**
+
 **A:** Absolutely. You can set:
 - Tone (professional, degen, humorous, etc.)
 - Hashtag strategy
 - Mention preferences
 - Emoji usage
 
-**Q: Does it support multiple Twitter accounts?**  
+**Q: Does it support multiple Twitter accounts?**
+
 **A:** Yes. You can configure multiple accounts in `config/accounts.json`.
 
 ---
 
-**Q: How accurate are the price alerts?**  
+**Q: How accurate are the price alerts?**
+
 **A:** Very accurate. The bot checks prices every 30–60 seconds (configurable). You can set custom percentage thresholds per coin.
 
 ---
 
 ### **Common Issues**
 
-**Q: Bot is not posting anything**  
+**Q: Bot is not posting anything**
+
 **A:** Check:
 1. Correct API credentials in `.env`
 2. Twitter API has "Read + Write" permissions
 3. Rate limits not exceeded
 4. Check logs in `data/logs/`
 
-**Q: Getting "401 Unauthorized" error**  
+**Q: Getting "401 Unauthorized" error**
+
 **A:** Regenerate your Access Token and Access Secret. Make sure they are from the same App.
 
-**Q: OpenAI is too expensive**  
+**Q: OpenAI is too expensive**
+
 **A:** 
 - Use cheaper models (`gpt-4o-mini`)
 - Reduce posting frequency
@@ -120,17 +133,20 @@ Frequently Asked Questions about the **Crypto Twitter Bot**.
 
 ---
 
-**Q: Is it safe to run this bot?**  
+**Q: Is it safe to run this bot?**
+
 **A:** The bot never asks for your private keys or seed phrases. However, never share your `.env` file. Use environment variables on your server.
 
 ---
 
 ### **Advanced**
 
-**Q: Can I connect my own LLM?**  
+**Q: Can I connect my own LLM?**
+
 **A:** Yes. The architecture supports any OpenAI-compatible API (local models via LM Studio, Groq, Anthropic, etc.).
 
-**Q: Will my account get banned?**  
+**Q: Will my account get banned?**
+
 **A:** Twitter/X is strict about automation. We recommend:
 - Not posting more than 8–12 times per day
 - Adding natural delays
